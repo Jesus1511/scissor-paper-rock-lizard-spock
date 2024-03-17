@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    background:linear-gradient(rgb(34, 45, 61),rgb(26, 37, 64));
+    height: 140%;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.maxw{
+    max-width: 1000px;
+}
+
+*{
+    color:white;
+}
+
+.sombraWinner{
+    box-shadow: 0px 0px 100px rgba(255, 255, 0, 0.388);
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.active{
+    width: 110px;
+}
+
+.active:active{
+    transition: .2s;
+    width: 100px;
+}
+
+.activePlus:active{
+    height: 85px;
+    width: 85px;
+    
+}
+
+.hoverBlue:hover{
+    box-shadow: 0px 0px 20px rgba(45, 125, 255, 0.458);
+    transition: .2s;
+}
+.hoverYellow:hover{
+    box-shadow: 0px 0px 20px rgba(227, 255, 45, 0.337);
+    transition: .2s;
+}
+.hoverRed:hover{
+    box-shadow: 0px 0px 20px rgba(255, 45, 45, 0.556);
+    transition: .2s;
+}
+.hoverPurple:hover{
+    box-shadow: 0px 0px 20px rgba(174, 0, 255, 0.664);
+    transition: .2s;
+}
+.hoverGreen:hover{
+    box-shadow: 0px 0px 20px rgba(0, 255, 128, 0.311);
+    transition: .2s;
+}
